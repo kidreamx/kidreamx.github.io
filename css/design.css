@@ -481,6 +481,7 @@ a.timeline_link:hover { border-color: var(--blue); transform: translateX(0.4rem)
 .project_body_inner { padding-top: 3.2rem; display: grid; gap: 4rem; }
 
 .project_overview { display: grid; grid-template-columns: 1fr 1.3fr; gap: 3rem; align-items: start; }
+.project_overview.no_cover { grid-template-columns: 1fr; }
 .project_cover { border-radius: var(--radius); overflow: hidden; border: 1px solid var(--border); box-shadow: var(--shadow-sm); }
 .project_cover img { width: 100%; height: 100%; object-fit: cover; }
 .project_meta_grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.8rem 2.4rem; align-content: start; }
@@ -522,6 +523,7 @@ a.timeline_link:hover { border-color: var(--blue); transform: translateX(0.4rem)
     padding: 1.6rem;
     cursor: zoom-in;
 }
+.architecture_frame.is_light { background: #fff; }
 
 .duty_grid { display: grid; gap: 1.8rem; }
 .duty_card { background: var(--bg-soft); border: 1px solid var(--border); border-radius: var(--radius); padding: 2.4rem; }
